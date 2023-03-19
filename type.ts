@@ -19,6 +19,6 @@ export interface IProject {
   imagePath: string;
   deployedUrl: string;
   githubUrl: string;
-  category: Category[];
+  
   keyTechs: string[];
 }
