@@ -2,7 +2,7 @@ import { RiComputerLine } from 'react-icons/ri';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { FaSass, FaSalesforce } from 'react-icons/fa';
 import { SiTypescript, SiTailwindcss, SiNextdotjs } from 'react-icons/si';
-import { DiReact, DiCss3Full, DiJavascript1 } from 'react-icons/Di';
+import { DiReact, DiCss3Full, DiJavascript1 } from 'react-icons/di';
 import { IProject, IService, ISkill } from './type';
 
 export const services: IService[] = [
