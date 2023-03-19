@@ -11,24 +11,20 @@ import {
   FaSalesforce,
 } from 'react-icons/fa';
 import { GoLocation } from 'react-icons/go';
-import {
-  SiTypescript,
-  SiTailwindcss,
-  SiNextdotjs,
-} from 'react-icons/si';
+import { SiTypescript, SiTailwindcss, SiNextdotjs } from 'react-icons/si';
 import Image from 'next/image';
 import { useTheme } from 'next-themes';
- 
+
 const pdfCv = './images/cv.pdf';
 
 function Sidebar() {
   const { theme, setTheme } = useTheme();
 
   const downloadPdfCv = (url: any) => {
-    const fileName = url.split("/").pop();
-    const aTag = document.createElement("a");
+    const fileName = url.split('/').pop();
+    const aTag = document.createElement('a');
     aTag.href = url;
-    aTag.setAttribute("download", fileName);
+    aTag.setAttribute('download', fileName);
     document.body.appendChild(aTag);
     aTag.click();
     aTag.remove();
@@ -64,29 +60,51 @@ function Sidebar() {
         <div className="flex justify-center">
           <GoLocation className="mr-2" /> <span>São Paulo, Brasil</span>
         </div>
-        <p className="mx-2 my-2 break-words">
-          darlanrodriguesp97@hotmail.com
+        <p className="mx-2 my-2 break-words">darlanrodriguesp97@hotmail.com</p>
+        <p className="my-2">
+          <a
+            href="https://wa.me/5511982723002"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {' '}
+            +5511982723002{' '}
+          </a>{' '}
         </p>
-        <p className="my-2"><a href="https://wa.me/5511982723002" target="_blank"> +5511982723002 </a> </p>
 
         {/* Socials */}
         <div className="flex w-9/12 mx-auto my-5 justify-evenly text-cyan-light dark:text-cyan-dark md:w-full ">
-          <a href="https://www.linkedin.com/in/darlanrp/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/darlanrp/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaLinkedin className="w-8 h-8 cursor-pointer " />
           </a>
-          <a href="https://github.com/DarlanRP" target="_blank">
+          <a
+            href="https://github.com/DarlanRP"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaGithub className="w-8 h-8 cursor-pointer" />
           </a>
           <button type="button" onClick={changeTheme}>
-            {theme === 'light' ? <FaMoon className="w-8 h-8 cursor-pointer"/> : <FaSun className="w-8 h-8 cursor-pointer"/>}
+            {theme === 'light' ? (
+              <FaMoon className="w-8 h-8 cursor-pointer" />
+            ) : (
+              <FaSun className="w-8 h-8 cursor-pointer" />
+            )}
           </button>
         </div>
         <div className="py-4 mx-5">
-          <button onClick={() => {downloadPdfCv(pdfCv)}}
+          <button
+            onClick={() => {
+              downloadPdfCv(pdfCv);
+            }}
             className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-cyan-light to-purple-light dark:from-cyan-dark dark:to-purple-dark focus:outline-none hover:scale-105 "
-            type="button">
+            type="button"
+          >
             Baixar Currículo
-          
           </button>
         </div>
         <div className="flex mx-auto my-5 justify-evenly text-cyan-light dark:text-cyan-dark md:w-full 2xl:my-14">

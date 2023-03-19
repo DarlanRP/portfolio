@@ -94,7 +94,8 @@ export const projects: IProject[] = [
   {
     id: 1,
     name: 'Netflix',
-    description: 'Clone da página inicial da Netflix feito com React. Para conseguir acesso aos dados de filmes e séries foi ultilizado uma API do The Movie Database (TMDB).',
+    description:
+      'Clone da página inicial da Netflix feito com React. Para conseguir acesso aos dados de filmes e séries foi ultilizado uma API do The Movie Database (TMDB).',
     imagePath: '/images/netflix.png',
     deployedUrl: 'https://netflixreact-dac17.web.app/',
     githubUrl: 'https://github.com/DarlanRP/NetflixClone',
@@ -103,10 +104,12 @@ export const projects: IProject[] = [
   {
     id: 2,
     name: 'LetmeAsk',
-    description: 'Projeto NLW realizado na Rocketseat feito com React. Para conseguir criar uma sala ou realizar uma pergunta em uma sala existente, você precisa estar logado com sua conta do Google.',
+    description:
+      'Projeto NLW realizado na Rocketseat feito com React. Para conseguir criar uma sala ou realizar uma pergunta em uma sala existente, você precisa estar logado com sua conta do Google.',
     imagePath: '/images/letmeask.png',
     deployedUrl: 'https://letmeask-4894c.web.app/',
-    githubUrl: 'https://github.com/DarlanRP/Chat-P-R-Com-REACT/tree/main/aula/letmeask',
+    githubUrl:
+      'https://github.com/DarlanRP/Chat-P-R-Com-REACT/tree/main/aula/letmeask',
     keyTechs: ['React', 'Typescript', 'SCCS'],
   },
   {

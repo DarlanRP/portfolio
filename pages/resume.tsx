@@ -20,15 +20,16 @@ const resume = () => {
             <h5 className="my-2 text-xl font-bold">
               Análise e Desenvolvimento de Sistemas
             </h5>
-            <p className="font-semibold">Universidade Nove de Julho(2017-2019)</p>
+            <p className="font-semibold">
+              {' '}
+              Universidade Nove de Julho(2017-2019)
+            </p>
           </div>
         </motion.div>
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Cursos Técnicos</h5>
           <div>
-            <h5 className="my-2 text-xl font-bold">
-            Salesforce Developer
-            </h5>
+            <h5 className="my-2 text-xl font-bold">Salesforce Developer</h5>
             <p className="font-semibold"> PragmaSchool (2023)</p>
           </div>
           <div>
@@ -42,7 +43,9 @@ const resume = () => {
         </motion.div>
       </div>
       <div className="mt-8">
-        <h5 className="mb-5 my-3 text-2xl font-bold text-center">Linguagens & Frameworks</h5>
+        <h5 className="mb-5 my-3 text-2xl font-bold text-center">
+          Linguagens & Frameworks
+        </h5>
         <div className="grid gap-5 md:grid-cols-2 my-2">
           {languages.map((language) => (
             <Bar data={language} key={language.name} />
