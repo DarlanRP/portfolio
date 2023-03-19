@@ -1,30 +1,14 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import ProjectCard from '../components/ProjectCard';
-import ProjectsNavBar from '../components/ProjectsNavBar';
 import { projects as projectsData } from '../data';
-import { Category } from '../type';
 import { fadeInUp, routeAnimation, stagger } from '../animation';
 
 function Projects() {
-  const [projects, setProjects] = useState(projectsData);
-  const [active, setActive] = useState('all');
+  const [projects] = useState(projectsData);
 
   const [showDetail, setShowDetail] = useState<number | null>(null);
 
-  const handlerFilterCategory = (category: Category | 'all') => {
-    if (category === 'all') {
-      setProjects(projectsData);
-      setActive(category);
-      return;
-    }
-
-    const newArray = projectsData.filter((project) =>
-      project.category.includes(category)
-    );
-    setProjects(newArray);
-    setActive(category);
-  };
   return (
     <motion.div
       variants={routeAnimation}
@@ -33,11 +17,6 @@ function Projects() {
       exit="exit"
       className="px-5 py-2 overflow-y-scroll h-[65vh] xl:h-[85vh]"
     >
-      <ProjectsNavBar
-        handlerFilterCategory={handlerFilterCategory}
-        active={active}
-      />
-
       <motion.div
         variants={stagger}
         initial="initial"

@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Bar from '../components/Bar';
-import { languages, tools } from '../data';
+import { languages } from '../data';
 import { fadeInUp, routeAnimation } from '../animation';
 
 const resume = () => {
@@ -28,7 +28,6 @@ const resume = () => {
           <div>
             <h5 className="my-2 text-xl font-bold">
             Salesforce Developer
-
             </h5>
             <p className="font-semibold"> PragmaSchool (2023)</p>
           </div>
