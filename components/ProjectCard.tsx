@@ -14,7 +14,6 @@ const ProjectCard: FunctionComponent<{
   project: {
     id,
     name,
-    category,
     deployedUrl,
     githubUrl,
     description,
