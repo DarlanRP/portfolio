@@ -1,5 +1,5 @@
 import { RiComputerLine } from 'react-icons/ri';
-import { AiFillHtml5 } from 'react-icons/Ai';
+import { AiFillHtml5 } from 'react-icons/ai';
 import { FaSass, FaSalesforce } from 'react-icons/fa';
 import { SiTypescript, SiTailwindcss, SiNextdotjs } from 'react-icons/si';
 import { DiReact, DiCss3Full, DiJavascript1 } from 'react-icons/Di';
@@ -98,7 +98,6 @@ export const projects: IProject[] = [
     imagePath: '/images/netflix.png',
     deployedUrl: 'https://netflixreact-dac17.web.app/',
     githubUrl: 'https://github.com/DarlanRP/NetflixClone',
-    category: ['react'],
     keyTechs: ['React', 'JS', 'CSS'],
   },
   {
@@ -108,7 +107,6 @@ export const projects: IProject[] = [
     imagePath: '/images/letmeask.png',
     deployedUrl: 'https://letmeask-4894c.web.app/',
     githubUrl: 'https://github.com/DarlanRP/Chat-P-R-Com-REACT/tree/main/aula/letmeask',
-    category: ['react'],
     keyTechs: ['React', 'Typescript', 'SCCS'],
   },
   {
@@ -118,7 +116,6 @@ export const projects: IProject[] = [
     imagePath: '/images/pokemon.png',
     deployedUrl: 'https://pokemon-dex-orcin.vercel.app/',
     githubUrl: 'https://github.com/DarlanRP/PokemonDex',
-    category: ['react'],
     keyTechs: ['React', 'Typescript', 'JS'],
   },
   {
@@ -128,7 +125,6 @@ export const projects: IProject[] = [
     imagePath: '/images/pizzaria.png',
     deployedUrl: 'https://pizzaria-one-mocha.vercel.app/',
     githubUrl: 'https://github.com/DarlanRP/Pizzaria',
-    category: ['JavaScript'],
     keyTechs: ['Javascript', 'HTML', 'CSS'],
   },
   {
@@ -138,7 +134,6 @@ export const projects: IProject[] = [
     imagePath: '/images/finances.png',
     deployedUrl: 'https://teste-63172.firebaseapp.com/#',
     githubUrl: 'https://github.com/DarlanRP/App-Finances',
-    category: ['JavaScript'],
     keyTechs: ['Javascript', 'HTML', 'CSS'],
   },
   {
@@ -148,7 +143,6 @@ export const projects: IProject[] = [
     imagePath: '/images/financesReact.png',
     deployedUrl: 'https://financesreact.web.app/',
     githubUrl: 'https://github.com/DarlanRP/FinancesReact',
-    category: ['react'],
     keyTechs: ['React', 'Typescript.js', 'JS'],
-  }
+  },
 ];
