@@ -24,7 +24,7 @@ const pdfCv = './images/cv.pdf';
 function Sidebar() {
   const { theme, setTheme } = useTheme();
 
-  const downloadPdfCv = (url) => {
+  const downloadPdfCv = (url: any) => {
     const fileName = url.split("/").pop();
     const aTag = document.createElement("a");
     aTag.href = url;
