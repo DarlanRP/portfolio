@@ -1,5 +1,5 @@
 /* eslint-disable react/function-component-definition */
-import React, { FunctionComponent, useState } from 'react';
+import React, { FunctionComponent } from 'react';
 import { FaGithub, FaPoll, FaWindowClose } from 'react-icons/fa';
 import Image from 'next/image';
 import { motion } from 'framer-motion';

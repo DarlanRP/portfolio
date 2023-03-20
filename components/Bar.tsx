@@ -1,7 +1,7 @@
 /* eslint-disable react/function-component-definition */
 import React, { FunctionComponent } from 'react';
 import { motion } from 'framer-motion';
-import { IService, ISkill } from '../type';
+import { ISkill } from '../type';
 
 const Bar: FunctionComponent<{ data: ISkill }> = ({
   data: { Icon, level, name },

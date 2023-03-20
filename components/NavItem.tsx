@@ -1,9 +1,11 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/function-component-definition */
 import React, { FunctionComponent } from 'react';
 import Link from 'next/link';
 
 const NavItem: FunctionComponent<{
   active: string;
+  // eslint-disable-next-line @typescript-eslint/ban-types
   setActive: Function;
   name: string;
   route: string;

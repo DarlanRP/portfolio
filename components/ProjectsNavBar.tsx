@@ -1,5 +1,5 @@
 /* eslint-disable react/function-component-definition */
-import React, { FunctionComponent } from 'react';
+import React from 'react';
 
 const ProjectsNavBar = () => {
   return <div />;
