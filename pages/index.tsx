@@ -14,13 +14,11 @@ function Home() {
       className="flex flex-col flex-grow px-6 pt-1 "
     >
       <h5 className="my-3 text-base font-medium">
-        Formado em análise e desenvolvimento de sistemas, tenho 3 anos de
-        experiência no desenvolvimento Front-end, e experiência em suporte de
-        soluções tecnológicas em um site de vendas já implementado, trabalhando
-        ativamente com o cliente e prestando aprimoramentos e melhorias no site,
-        atualmente procuro uma oportunidade no universo Front-end e salesforce,
-        possuo conhecimentos em Batches, Triggers, LWC, React.JS, Next.JS,
-        JavaScript.
+      Formado em análise e desenvolvimento de sistemas, tenho mais de 3 anos de experiência no
+      desenvolvimento Front-end, e experiência em suporte de soluções tecnológicas em um site de vendas
+      já implementado, trabalhando ativamente com o cliente e prestando aprimoramentos e melhorias no
+      site, atualmente procuro uma oportunidade na área de programação, possuo diversos conhecimentos
+      no front-end, back-end e suporte técnico.
       </h5>
       <div
         className="xl:h-[85vh] p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
